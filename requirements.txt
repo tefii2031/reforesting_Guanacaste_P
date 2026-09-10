@@ -1,0 +1,7 @@
+#Momentaneo
+- Python 3.8 o superior
+- GDAL/OGR 3.0+
+- PostGIS (opcional, para análisis avanzados)
+- Git
+- Conda o pip para gestión de dependencias
+- QGIS 4.2.2-Belém do Pará
