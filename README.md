@@ -26,11 +26,26 @@ Proyecto de análisis de datos geoespacial asistido por inteligencia artificial 
 
 Este proyecto integra técnicas avanzadas de análisis geoespacial y modelos de inteligencia artificial para:
 
+
+### Caso  de estudio
+
+#### Regeneración natural post-incendio en Guanacaste → Monitoreo satelita
+
+Analizar el comportamiento de la regeneración natural de la vegetación en un área quemada real del Área de Conservación Guanacaste, Costa Rica, usando datos satelitales de (basemaps gratuitos de alta resolución para monitoreo forestal tropical en América Latina). 
+
+El objetivo no es solo el análisis técnico, sino mostrar cómo se traduciría ese análisis en una conversación con un cliente gubernamental o comercial en LatAm: ¿qué pregunta de negocio resuelve, qué se le muestra en una demo, y qué propuesta de valor se arma alrededor de los datos?.
+
+**Pregunta de investigación:** ¿Cómo puede una entidad de conservación o gobierno en Guanacaste monitorear, con evidencia satelital objetiva, la velocidad y el comportamiento de la regeneración natural de un área quemada, sin depender solo de patrullajes terrestres?
+
 - **Monitoreo de cobertura forestal** mediante análisis de imágenes satelitales
 - **Predicción de cambios** en uso de suelo utilizando modelos de aprendizaje automático
 - **Evaluación de impacto**  de diferentes esenarios de reforestación
 - **Generación de reportes** automatizados para stakeholders
 - **Visualización interactiva** de resultados geoespaciales
+
+## Estado
+
+En construcción — ver `docs/PROPUESTA_PROYECTO.md` para el plan completo y las fases.
 
 ## ✨ Características
 
@@ -90,6 +105,7 @@ python scripts/download_data.py
 
 ```
 reforesting_Guanacaste_P/
+├── docs/                          # Datos de la propuesta
 ├── data/                          # Datos de entrada y procesados
 │   ├── raw/                       # Datos sin procesar
 │   ├── processed/                 # Datos procesados
